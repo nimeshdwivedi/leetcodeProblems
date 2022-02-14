@@ -1,4 +1,4 @@
-package main.java;
+package main.java.problems.arrays;
 
 /*
 Given a binary array nums, return the maximum number of consecutive 1's in the array.

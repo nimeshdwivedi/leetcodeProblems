@@ -1,9 +1,6 @@
-package main.java;
+package main.java.problems.strings;
 
 import java.util.*;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class DesignDStoAddSearchWords {
 

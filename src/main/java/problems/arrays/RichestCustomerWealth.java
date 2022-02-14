@@ -1,4 +1,4 @@
-package main.java;
+package main.java.problems.arrays;
 
 /*
 You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the ith customer has in the jth bank.

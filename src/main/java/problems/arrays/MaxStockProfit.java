@@ -1,6 +1,4 @@
-package main.java;
-
-import java.util.Arrays;
+package main.java.problems.arrays;
 
 /*
 You are given an array prices where prices[i] is the price of a given stock on the ith day.

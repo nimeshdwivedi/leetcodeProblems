@@ -1,4 +1,4 @@
-package main.java;
+package main.java.problems.trees;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreeNode;

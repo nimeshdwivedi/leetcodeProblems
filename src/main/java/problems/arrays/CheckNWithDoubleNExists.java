@@ -1,8 +1,7 @@
-package main.java;
+package main.java.problems.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 /*
 Given an array arr of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).

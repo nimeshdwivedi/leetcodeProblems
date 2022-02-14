@@ -1,7 +1,6 @@
-package main.java;
+package main.java.problems.strings;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FindAllAnagrams {

@@ -29,11 +29,35 @@ public class SquareOfSortedArray {
         System.out.println(Arrays.toString(new SquareOfSortedArray().sortedSquares(new int[]{-7,-3,2,3,11})));
     }
 
-    public int[] sortedSquares(int[] nums) {
+    // my solution 5 ms
+    public int[] mySortedSquares(int[] nums) {
         for(int i=0; i<nums.length; i++){
             nums[i] = (int) Math.pow(nums[i], 2);
         }
         Arrays.sort(nums);
         return nums;
+    }
+
+    // 1 ms
+    public int[] sortedSquares(int[] nums) {
+        int ans[] = new int[nums.length];
+        int i = 0 ;
+        int j = nums.length-1;
+        int index  = nums.length-1;
+        while(i <= j){
+            int start = nums[i];
+            int end = nums[j];
+            start = start * start;
+            end = end * end;
+            if(end > start){
+                ans[index--] = end;
+                j--;
+            }
+            else{
+                ans[index--] = start;
+                i++;
+            }
+        }
+        return ans;
     }
 }

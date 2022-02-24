@@ -1,4 +1,4 @@
-package main.java.problems.strings;
+package main.java.problems.math;
 
 /*
 Given a string columnTitle that represents the column title as appear in an Excel sheet,

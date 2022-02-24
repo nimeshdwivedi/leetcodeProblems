@@ -1,5 +1,5 @@
 
-package main.java.problems.strings;
+package main.java.problems.math;
 
 /*
 Given a string columnNumber, return its corresponding column title as it appears in an Excel sheet.
